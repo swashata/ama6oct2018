@@ -1,0 +1,22 @@
+{
+  "name": "jstooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "watch": "babel --watch src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC"
+}

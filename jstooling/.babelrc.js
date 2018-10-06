@@ -1,0 +1,10 @@
+module.exports = function (api) {
+	api.cache(true);
+	const presets = [ '@babel/preset-env' ];
+	const plugins = [ '@babel/plugin-syntax-object-rest-spread' ];
+
+	return {
+	  presets,
+	  plugins
+	};
+  }
